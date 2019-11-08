@@ -1,10 +1,9 @@
 # Create method `parrot` that outputs a given phrase and
 # returns the phrase
 
-def parrot
-  puts "Squawk!" 
-else puts "Pretty bird! "
-  makes_noise = "Squawk!"
+def parrot(phrase = "Squawk!")
+  puts "#{phrase}"
+  parrot=phrase
 end
 
-return des_bird 
+parrot
